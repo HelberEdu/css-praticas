@@ -1,0 +1,6 @@
+Posição relativa:
+    Posiciona um elemento com base na posição original.
+Posição absoluta:
+    Faz com que o elemento fique flutuante na página, porém esse elemento vai respeitar o último elemento com a posição relativa.
+Posição fixada:
+    Faz com que o elemento fique flutuando, porém o elemento fica fixo na tela, ele não rolará junto com a página.

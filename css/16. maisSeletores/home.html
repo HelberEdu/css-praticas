@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Seletores</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        height: 200px;
+        background: gray;
+        margin: 10px;
+    }
+    /*
+    div:last-of-type{
+        background: black;
+
+    div:first-of-type{
+        background: black;
+    }
+    
+    div:nth-child(2){
+        background: black;
+    }
+    */
+    .amarelo{
+        background: yellow;
+    }
+    .vermelho{
+        background: red;
+    }
+    .verde{
+        background: green;
+    }
+    .amarelo.bordada{
+        border-radius:100%;
+        background: white;
+    }
+    .bordada{
+        border: 3px solid black;
+    }
+</style>
+<body>
+    <div class="amarelo bordada"></div>
+    <div class="verde bordada"></div>
+    <div class="vermelho"></div>
+</body>
+</html>

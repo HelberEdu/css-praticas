@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        h1{
+            position: relative;
+            width: max-content;
+        }
+        h2:before{
+            content: ':) ';
+        }
+        h2:after{
+            content: ' xD';
+        }
+
+        h1:before{
+            content: '';
+            width: 100%;
+            height: 5px;
+            border-radius: 5px;
+            background: green;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        } /*pseudo elemento, utilizado para mostrar elementos na tela que não são elementos*/
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+</body>
+</html>

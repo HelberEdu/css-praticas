@@ -1,0 +1,10 @@
+.botaoAzul{
+    background: #2969e4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding: 6px 15px;
+}
